@@ -1,0 +1,35 @@
+# Build directories
+build/
+_deps/
+.cache/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+compile_commands.json
+
+# Build artifacts
+*.a
+*.o
+*.so
+*.dylib
+*.dll
+
+# macOS
+.DS_Store
+build_py/
+
+# Python
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+bindings/node/dist/
